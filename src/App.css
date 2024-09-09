@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+
+.form {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #f9f9f9;
+    border-radius: 2rem;
+
+    .subject {
+        height: 10rem;
+        width: 20rem;
+    }
+}
+
+
+.result {
+  white-space: pre-line;
+  width: 30rem;
+  min-height: 10rem;
+  padding: 2rem;
+  background-color: #888888;
+  text-align: left;
+  border-radius: 1rem;
+}
